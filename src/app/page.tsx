@@ -8,7 +8,7 @@ import HistoriaSection from "@/components/HistoriaSection";
 export default function Home() {
   return (
     <div className="dark">
-      <div className="bg-cover bg-center bg-no-repeat bg-banner">
+      <div className="bg-cover bg-center bg-no-repeat bg-banner h-screen">
         <Header />
         <HeroSection />
       </div>
