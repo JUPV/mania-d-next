@@ -1,6 +1,7 @@
 
 import CardapioSection from "@/components/CardapioSection";
 import FeedbackSection from "@/components/FeedbackSection";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import HistoriaSection from "@/components/HistoriaSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <HistoriaSection />
       <CardapioSection />
       <FeedbackSection />
+      <Footer />
     </div>
   );
 }
