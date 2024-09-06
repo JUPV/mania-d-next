@@ -9,9 +9,11 @@ import HistoriaSection from "@/components/HistoriaSection";
 export default function Home() {
   return (
     <div className="dark">
-      <div className=" bg-cover bg-center bg-no-repeat bg-banner h-screen ">
-        <Header />
-        <HeroSection />
+      <div className=" bg-cover bg-center bg-no-repeat bg-banner h-screen">
+        <div className="bg-black bg-opacity-50 h-full">
+          <Header />
+          <HeroSection />
+        </div>
       </div>
       <HistoriaSection />
       <CardapioSection />

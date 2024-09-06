@@ -5,7 +5,7 @@ import logo from '@/assets/Logo.png';
 export default function Header() {
   return (
     <header className="shadow-md w-full">
-      <nav className="flex p-4 bg-black bg-opacity-50 w-full items-center">
+      <nav className="flex p-4 w-full items-center">
         <Image src={logo} alt="Logo Mania D Esfiharia Delivery" width={150} height={50} />
         <ul className="flex space-x-4">
           {['Home', 'Nossa História', 'Cardápio', 'Contato'].map((item, index) => (
